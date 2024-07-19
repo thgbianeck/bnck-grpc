@@ -4,6 +4,8 @@ import (
 	"database/sql"
 	"net"
 
+	_ "github.com/mattn/go-sqlite3"
+
 	"github.com/thgbianeck/bnck-grpc/internal/database"
 	"github.com/thgbianeck/bnck-grpc/internal/pb"
 	"github.com/thgbianeck/bnck-grpc/internal/service"
